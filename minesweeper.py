@@ -4,12 +4,6 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 def play_sound():
-
-    pygame.mixer.init()
-    sound = pygame.mixer().Sound("burst.wav")
-    sound.play()
-
-def play_sound():
     pygame.mixer.init()
     sound = pygame.mixer.Sound("burst.wav")
     sound.play()
