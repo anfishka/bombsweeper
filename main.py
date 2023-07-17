@@ -1,5 +1,4 @@
-# from minesweeper import *
-import minesweeper
+from minesweeper import *
 
 if __name__ == '__main__':
-    minesweeper.startGame()
+    startGame()
